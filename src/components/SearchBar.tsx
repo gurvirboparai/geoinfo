@@ -15,7 +15,6 @@ export default function SearchBar() {
             </div>
             <div className='flex flex-col mt-5'>
                 { search ? <h1>hello</h1> : ""}
-                <h1></h1>
 
             </div>
         </div>
