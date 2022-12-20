@@ -1,6 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import axios from "axios";
-import useDebounce from "../hooks/useDebounce";
 import useGetCountry from "../hooks/useGetCountry";
 
 export default function SearchBar() {
