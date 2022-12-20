@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='flex flex-col space-y-12 justify-center items-center h-[100vh] mt-[-3.5rem]'>
       {/* <h1 className="font-bold text-[32px]">GeoInfo</h1> */}
-      <img src="src/assets/geoinfologo.png" alt="" className='w-[250px]' />
+      <img src="public/geoinfologo.png" alt="" className='w-[250px]' />
       <SearchBar />
 
     </div>
