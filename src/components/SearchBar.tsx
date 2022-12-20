@@ -29,7 +29,7 @@ export default function SearchBar() {
                 <div className="flex flex-col mt-5">
                     {country ? <div className="w-[584px] p-4">
                         <div className="flex flex-col items-center">
-                            <img src={country?.flags?.svg} alt="" className="w-[350px] " />
+                            <img src={country?.flags?.svg} alt="" className="w-[350px] outline outline-1 " />
                             <h1 className="uppercase font-bold text-[24px] my-5">{country.name.official}</h1>
                         </div>
                         <p> <b>Common Name: </b> {country.name.common} </p>
